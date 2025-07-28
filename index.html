@@ -1,14 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            list-style: none;
+            text-decoration: none;
+        }
+
+        .nav-link {
+            font-size: 20px;
+            font-weight: 700;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
 </head>
+
 <body>
+    <nav style="padding: 20px 0 50px 0; display: flex; justify-content: center; gap: 120px;">
+        <li><a href="./index.html" style="color: #6495ED;" class="nav-link">Row Column Span</a></li>
+        <li><a href="./row-column.html" style="color: #D2691E;" class="nav-link">Row Column Body</a></li>
+        <li><a href="./grid-area.html" style="color: #9932CC;" class="nav-link">Grid Area Body</a></li>
+    </nav>
     <!-- section>.box*12{box-$}#box-$ -->
-     <section>
+    <section>
         <div class="box" id="box-1">
             <p>box-1</p>
         </div>
@@ -45,6 +65,7 @@
         <div class="box" id="box-12">
             <p>box-12</p>
         </div>
-     </section>
+    </section>
 </body>
+
 </html>
